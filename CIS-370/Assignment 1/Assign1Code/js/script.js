@@ -53,13 +53,7 @@ function getHeader()
 									'<li><a href="../view/checksheet.html">CHECKSHEET</a></li>' +
 								  '</ul>' +
 							'</li>' +
-							'<li>' +
-						    '<a class="userLoginImage pull-right" href="">' +
-						     '<img title="Sign In"width="50" alt="user login image" src="../images/user.png"/>' +
-						    '</a>' +
-						  '</li>' +
 						  '</ul>' +
-						  
                     '</div><!-- /.navbar-collapse -->' +
                 '</div>' +
             '</nav>';

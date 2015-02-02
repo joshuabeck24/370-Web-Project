@@ -4845,14 +4845,19 @@ a.badge:focus {
 }
 .jumbotron {
   padding: 30px 15px;
-  margin-bottom: 30px;
+  margin-top: 100px;
   color: inherit;
-  background-color: #eee;
+  background-color: #e7e7e7;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
 }
+ .jumbotron h3,
+  .jumbrotron.h3 {
+    font-size: 30px;
+	font-weight: bold;
+  }
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 21px;
@@ -4880,6 +4885,11 @@ a.badge:focus {
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
+  }
+  .jumbotron h3,
+  .jumbrotron.h3 {
+    font-size: 30px;
+	font-weight: bold;
   }
 }
 .thumbnail {
