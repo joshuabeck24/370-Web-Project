@@ -25,6 +25,11 @@
 	margin-top:-10px;
 }
 .userLoginImage :hover{opacity: 0.3;}
+.socialMediaIcons
+{
+	margin-top:20px;
+}
+.socialMediaIcons:hover{opacity: 0.3;}
 
 .navbarlinks
 {
@@ -88,11 +93,21 @@ a:hover {
 
 #mainFooter {
 background-color:#e7e7e7;
-font-family: 'Garamond';
-font-size: 50px;
-font-weight: bold;
+/*+font-family: 'Garamond';
++font-size: 50px;
++font-weight: bold;*/
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
 color:#3399FF;
-
 text-align: center;
-
+width:100%;
 }
+
+#mainFooter > a{
+color:#3399FF;
+}
+
+#mainFooter > a:hover{
+color: #8ECC8E;
+}
+

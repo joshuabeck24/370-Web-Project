@@ -70,7 +70,13 @@ function getFooter() {
 
         var footer = '<a href="mailto:michele.a.gregory@gmail.com"> Comments </a>'
 					+ ' Copyright &copy; 2015'
-		            +'<a href="newsletter.html"> <img src="../images/mail.png" width="80" height="80" float="right" /> </a>';
+		            +'<a href="newsletter.html"> <img src="../images/mail.png" width="80" height="80" float="right" /> </a>'
+					+'<ul class="pull-right" style="list-style-type: none;">'
+				    +   '<li class="pull-left"><a href="https://www.facebook.com/"><img class="socialMediaIcons" src="../images/Ifacebook.png" alt="Facebook Icon" title="Go To Facebook" /></a></li>'
+				    +   '<li class="pull-left"><a href="https://twitter.com/"><img class="socialMediaIcons" src="../images/Itwitter.png" alt="Twitter Icon" title="Go To Twitter" /></a></li>'
+			        +   '<li class="pull-left"><a href="https://instagram.com/accounts/login/"><img class="socialMediaIcons" src="../images/Iinstagram.png" alt="Instagram Icon" title="Go To Instagram"/></a></li>'
+				    +   '<li class="pull-left"><a href="https://www.youtube.com/"><img class="socialMediaIcons" src="../images/Iyoutube.png" alt="Youtube Icon" title="Go To Youtube"/></a></li>'
+			        +'</ul>';
                 	
 		
 		$('#mainFooter').html(footer);
