@@ -14,7 +14,12 @@
 	}, false);
 	
 
-	
+	/*ORIGINAL FIDDLE CODE http://jsfiddle.net/rq9UB/ and http://stackoverflow.com/questions/8379776/add-remove-active-class-from-a-navigation-link */
+   $('li a').click(function(e) {
+        e.preventDefault();
+        $('a').removeClass('active');
+        $(this).addClass('active');
+    });
 	
 function getPicture() {
 
@@ -41,7 +46,7 @@ function getHeader()
 					'</div>' +
 				    '<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">' +
 						  '<ul class="nav navbar-nav navbar-right">' +
-							'<li class="active"><a href="#">HOME</a></li>' + /*THIS CLASS ACTIVE NEEDS TO BE FIXED*/
+							'<li><a href="../view/ANHome.html">HOME</a></li>' + /*THIS CLASS ACTIVE NEEDS TO BE FIXED*/
 							'<li><a href="">ABOUT</a></li>' +
 							'<li><a href="#">ADMIN</a></li>' +
 							'<li class="dropdown">'+
@@ -68,9 +73,9 @@ function getHeader()
 	  
 function getFooter() {
 
-        var footer = '<a href="mailto:michele.a.gregory@gmail.com"> Comments </a>'
-					+ ' Copyright &copy; 2015'
-		            +'<a href="newsletter.html"> <img src="../images/mail.png" width="80" height="80" float="right" /> </a>'
+        var footer = '<a class="br" href="mailto:michele.a.gregory@gmail.com">Comments</a>'
+					+'<a style="text-decoration:none">Copyright &copy; 2015</a>'
+		            +'<a href="newsletter.html" style="text-decoration:none"> <img title="Join Our Newsletter!" class="socialMediaIcons" src="../images/mail.png" width="50" height="50" float="right" /> </a>'
 					+'<ul class="pull-right" style="list-style-type: none;">'
 				    +   '<li class="pull-left"><a href="https://www.facebook.com/"><img class="socialMediaIcons" src="../images/Ifacebook.png" alt="Facebook Icon" title="Go To Facebook" /></a></li>'
 				    +   '<li class="pull-left"><a href="https://twitter.com/"><img class="socialMediaIcons" src="../images/Itwitter.png" alt="Twitter Icon" title="Go To Twitter" /></a></li>'
