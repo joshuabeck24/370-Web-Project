@@ -1598,6 +1598,7 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
+
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
 }
@@ -2092,8 +2093,10 @@ pre code {
   .col-lg-7 {
     width: 58.33333333%;
   }
-  .col-lg-6 {
+  .col-lg-6  {
     width: 50%;
+	
+	
   }
   .col-lg-5 {
     width: 41.66666667%;
@@ -2227,6 +2230,9 @@ pre code {
   .col-lg-offset-0 {
     margin-left: 0;
   }
+}
+.col-lg-6 > hr {
+border-top-color: #d5d5d5;
 }
 table {
   background-color: transparent;
@@ -4861,6 +4867,13 @@ a.badge:focus {
     font-size: 30px;
 	font-weight: bold;
 }
+.jumbotron h2,
+ .jumbrotron.h2 {
+    font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
   
 .jumbotron p {
   margin-bottom:15px;
