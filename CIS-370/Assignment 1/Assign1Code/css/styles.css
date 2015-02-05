@@ -11,7 +11,21 @@
 	margin-right:15px;
 	font-size:35px;
 }
-
+.formFormat
+{
+	display: inline-block;
+    text-align: center;
+	width:100%;
+	margin: 0px auto;
+}
+.signInFormDiv
+{
+	margin: 100px auto 0px auto;
+	background-color:#e7e7e7;
+	width:60%;
+	padding:10px;
+	border-radius: 25px;
+}
 .imageLoad
 {
 	opacity:0.0;
@@ -103,7 +117,8 @@ font-size: 14px;
 color:#3399FF;
 text-align: center;
 width:100%;
-height:80px;
+height:auto;
+overflow:auto;
 }
 
 #mainFooter > a{

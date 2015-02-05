@@ -59,7 +59,7 @@ function getHeader()
 								  '</ul>' +
 							'</li>' +
 							'<li>' +
-						    '<a class="userLoginImage pull-right" href="">' +
+						    '<a class="userLoginImage pull-right" href="../view/ANSignup.html">' +
 						     '<img title="Sign In"width="50" alt="user login image" src="../images/user.png"/>' +
 						    '</a>' +
 						  '</li>' +
