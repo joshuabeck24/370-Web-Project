@@ -39,7 +39,7 @@ function getHeader()
 						'<span class="icon-bar"></span>' +
 						'<span class="icon-bar"></span>' +
 					'</button>' +
-						'<a class="navbar-brand" href="#">' +
+						'<a class="navbar-brand" href="../view/ANHome.html">' +
 						   '<img width="80" alt="Logo" src="../images/logo.png"/>' +
 						'</a>' +
 						'<div class="logoText"> <span class="tclb">Audio</span><span class="tclg">Nexus</span></div>' +
@@ -47,13 +47,13 @@ function getHeader()
 				    '<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">' +
 						  '<ul class="nav navbar-nav navbar-right">' +
 							'<li><a href="../view/ANHome.html">HOME</a></li>' + /*THIS CLASS ACTIVE NEEDS TO BE FIXED*/
-							'<li><a href="">ABOUT</a></li>' +
+							'<li><a href="../view/ANMusic.html">MUSIC</a></li>' +
 							'<li><a href="#">ADMIN</a></li>' +
 							'<li class="dropdown">'+
 								  '<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">HELP <span class="caret"></span></a>' +
 								  '<ul class="dropdown-menu" role="menu">'+
-									'<li><a href="#">ABOUT</a></li>' +
-									'<li><a href="#">IDEAS</a></li>' +
+									'<li><a href="../view/ANAbout.html">ABOUT</a></li>' +
+									'<li><a href="../view/ANIdeas.html">IDEAS</a></li>' +
 									'<li class="divider"></li>' +
 									'<li><a href="../view/checksheet.html">CHECKSHEET</a></li>' +
 								  '</ul>' +
